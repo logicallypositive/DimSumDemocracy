@@ -2,9 +2,8 @@
 use std::fs::File;
 use std::io::BufReader;
 use serde::{Deserialize, Serialize};
-use serde_json::Value;
 
-#[derive(Serialize, Deserialize, Debug)]
+#[derive(Serialize, Deserialize, Debug, Clone)]
 struct Recipe {
     id: u32,
     name: String,
@@ -19,9 +18,19 @@ fn main() -> std::io::Result<()> {
 
     let json_data: Vec<Recipe> = serde_json::from_reader(reader)?;
 
+    let temp: Recipe = chooser(&json_data);
+
     for recipe in json_data.iter() {
         println!("{:#}", recipe.name);
     }
 
+    println!("{:#}", temp.name);
+
     Ok(())
+}
+
+fn chooser(recipes: &[Recipe]) -> Recipe {
+
+    return recipes[0].clone();
+
 }
