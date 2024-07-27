@@ -7,12 +7,12 @@
     "nutrition_value": 9.0,
     "yummy_value": 8.5,
     "affordability": 7.5,
-    "preparation_time": "20 minutes",
-    "serving_size": "2 servings",
+    "preparation_time": 20,
+    "serving_size": 2,
     "cuisine": "International",
-    "spiciness_level": "Mild",
+    "spiciness_level": 2,
     "caloric_information": 300,
-    "shelf_life": "2 days in the refrigerator",
+    "shelf_life": 3,
     "meal_prep_friendly": true,
     "serving_suggestions": [
       "Serve chilled, optionally garnish with extra lemon zest.",
@@ -20,15 +20,15 @@
     ],
     "recipe": {
       "ingredients": [
-        { "name": "Quinoa", "quantity": "1 cup" },
-        { "name": "Avocado", "quantity": "1, diced" },
-        { "name": "Cherry Tomatoes", "quantity": "100g, halved" },
-        { "name": "Cucumber", "quantity": "1, diced" },
-        { "name": "Olive Oil", "quantity": "2 tbsp" },
-        { "name": "Lemon Juice", "quantity": "2 tbsp" },
-        { "name": "Salt", "quantity": "to taste" },
-        { "name": "Pepper", "quantity": "to taste" },
-        { "name": "Fresh Basil", "quantity": "a handful, chopped" }
+        { "name": "Quinoa", "quantity": 1, "unit": "cup" },
+        { "name": "Avocado", "quantity": 1, "unit": "piece" },
+        { "name": "Cherry Tomatoes", "quantity": 100, "unit": "grams" },
+        { "name": "Cucumber", "quantity": 1, "unit": "piece" },
+        { "name": "Olive Oil", "quantity": 2, "unit": "tbsp" },
+        { "name": "Lemon Juice", "quantity": 2, "unit": "tbsp" },
+        { "name": "Salt", "quantity": 1, "unit": "to taste" },
+        { "name": "Pepper", "quantity": 1, "unit": "to taste" },
+        { "name": "Fresh Basil", "quantity": 1, "unit": "handful" }
       ],
       "steps": [
         "Rinse quinoa under cold water and cook according to package instructions. Let it cool.",
@@ -47,12 +47,12 @@
     "nutrition_value": 8.8,
     "yummy_value": 8.0,
     "affordability": 9.0,
-    "preparation_time": "45 minutes",
-    "serving_size": "4 servings",
+    "preparation_time": 45,
+    "serving_size": 4,
     "cuisine": "Mediterranean",
-    "spiciness_level": "Medium",
+    "spiciness_level": 3,
     "caloric_information": 350,
-    "shelf_life": "3 days in the refrigerator",
+    "shelf_life": 3,
     "meal_prep_friendly": true,
     "serving_suggestions": [
       "Serve with a slice of whole grain bread.",
@@ -60,18 +60,18 @@
     ],
     "recipe": {
       "ingredients": [
-        { "name": "Green Lentils", "quantity": "1 cup" },
-        { "name": "Carrot", "quantity": "1, diced" },
-        { "name": "Celery", "quantity": "2 stalks, diced" },
-        { "name": "Onion", "quantity": "1, chopped" },
-        { "name": "Garlic", "quantity": "3 cloves, minced" },
-        { "name": "Vegetable Broth", "quantity": "4 cups" },
-        { "name": "Tomato Paste", "quantity": "2 tbsp" },
-        { "name": "Olive Oil", "quantity": "1 tbsp" },
-        { "name": "Bay Leaf", "quantity": "1" },
-        { "name": "Cumin", "quantity": "1 tsp" },
-        { "name": "Salt", "quantity": "to taste" },
-        { "name": "Pepper", "quantity": "to taste" }
+        { "name": "Green Lentils", "quantity": 1, "unit": "cup" },
+        { "name": "Carrot", "quantity": 1, "unit": "piece" },
+        { "name": "Celery", "quantity": 2, "unit": "stalks" },
+        { "name": "Onion", "quantity": 1, "unit": "piece" },
+        { "name": "Garlic", "quantity": 3, "unit": "cloves" },
+        { "name": "Vegetable Broth", "quantity": 4, "unit": "cups" },
+        { "name": "Tomato Paste", "quantity": 2, "unit": "tbsp" },
+        { "name": "Olive Oil", "quantity": 1, "unit": "tbsp" },
+        { "name": "Bay Leaf", "quantity": 1, "unit": "piece" },
+        { "name": "Cumin", "quantity": 1, "unit": "tsp" },
+        { "name": "Salt", "quantity": 1, "unit": "to taste" },
+        { "name": "Pepper", "quantity": 1, "unit": "to taste" }
       ],
       "steps": [
         "Heat olive oil in a large pot over medium heat. Add chopped onion, carrot, celery, and minced garlic. Sauté until vegetables are soft.",
@@ -81,6 +81,317 @@
         "Remove the bay leaf and serve hot."
       ]
     }
+  },
+  {
+    "id": 3,
+    "name": "Mango Smoothie",
+    "vegan": true,
+    "recency": "2024-07-24",
+    "nutrition_value": 8.5,
+    "yummy_value": 9.0,
+    "affordability": 7.0,
+    "preparation_time": 10,
+    "serving_size": 2,
+    "cuisine": "Beverage",
+    "spiciness_level": 0,
+    "caloric_information": 200,
+    "shelf_life": 1,
+    "meal_prep_friendly": false,
+    "serving_suggestions": [
+      "Serve chilled, topped with fresh mint leaves.",
+      "Optional: Add a scoop of protein powder for extra nutrition."
+    ],
+    "recipe": {
+      "ingredients": [
+        { "name": "Mango", "quantity": 2, "unit": "pieces" },
+        { "name": "Banana", "quantity": 1, "unit": "piece" },
+        { "name": "Coconut Milk", "quantity": 1, "unit": "cup" },
+        { "name": "Ice Cubes", "quantity": 1, "unit": "cup" },
+        { "name": "Maple Syrup", "quantity": 1, "unit": "tbsp" }
+      ],
+      "steps": [
+        "Peel and chop the mangoes and banana.",
+        "Combine all ingredients in a blender and blend until smooth.",
+        "Serve immediately."
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "name": "Vegan Tacos",
+    "vegan": true,
+    "recency": "2024-07-23",
+    "nutrition_value": 8.0,
+    "yummy_value": 8.5,
+    "affordability": 8.0,
+    "preparation_time": 30,
+    "serving_size": 4,
+    "cuisine": "Mexican",
+    "spiciness_level": 4,
+    "caloric_information": 350,
+    "shelf_life": 2,
+    "meal_prep_friendly": true,
+    "serving_suggestions": [
+      "Serve with a side of guacamole and salsa.",
+      "Garnish with fresh cilantro and lime wedges."
+    ],
+    "recipe": {
+      "ingredients": [
+        { "name": "Corn Tortillas", "quantity": 8, "unit": "pieces" },
+        { "name": "Black Beans", "quantity": 1, "unit": "cup" },
+        { "name": "Red Bell Pepper", "quantity": 1, "unit": "piece" },
+        { "name": "Corn", "quantity": 1, "unit": "cup" },
+        { "name": "Avocado", "quantity": 1, "unit": "piece" },
+        { "name": "Lettuce", "quantity": 1, "unit": "cup" },
+        { "name": "Salsa", "quantity": 1, "unit": "cup" },
+        { "name": "Cilantro", "quantity": 1, "unit": "handful" },
+        { "name": "Lime", "quantity": 1, "unit": "piece" }
+      ],
+      "steps": [
+        "Warm the corn tortillas in a dry skillet.",
+        "In a bowl, combine black beans, diced red bell pepper, and corn.",
+        "Assemble the tacos with the bean mixture, avocado slices, lettuce, and salsa.",
+        "Garnish with fresh cilantro and a squeeze of lime juice."
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chickpea Curry",
+    "vegan": true,
+    "recency": "2024-07-22",
+    "nutrition_value": 8.7,
+    "yummy_value": 8.2,
+    "affordability": 8.5,
+    "preparation_time": 40,
+    "serving_size": 4,
+    "cuisine": "Indian",
+    "spiciness_level": 5,
+    "caloric_information": 400,
+    "shelf_life": 4,
+    "meal_prep_friendly": true,
+    "serving_suggestions": [
+      "Serve with basmati rice or naan bread.",
+      "Top with fresh coriander leaves."
+    ],
+    "recipe": {
+      "ingredients": [
+        { "name": "Chickpeas", "quantity": 2, "unit": "cups" },
+        { "name": "Coconut Milk", "quantity": 1, "unit": "can" },
+        { "name": "Onion", "quantity": 1, "unit": "piece" },
+        { "name": "Tomatoes", "quantity": 2, "unit": "pieces" },
+        { "name": "Garlic", "quantity": 4, "unit": "cloves" },
+        { "name": "Ginger", "quantity": 1, "unit": "inch piece" },
+        { "name": "Curry Powder", "quantity": 2, "unit": "tbsp" },
+        { "name": "Turmeric", "quantity": 1, "unit": "tsp" },
+        { "name": "Cumin", "quantity": 1, "unit": "tsp" },
+        { "name": "Salt", "quantity": 1, "unit": "to taste" },
+        { "name": "Pepper", "quantity": 1, "unit": "to taste" },
+        { "name": "Coriander Leaves", "quantity": 1, "unit": "handful" }
+      ],
+      "steps": [
+        "Heat oil in a pot and sauté chopped onions, garlic, and ginger until soft.",
+        "Add chopped tomatoes, curry powder, turmeric, and cumin. Cook for 5 minutes.",
+        "Add chickpeas and coconut milk. Simmer for 20 minutes.",
+        "Season with salt and pepper. Serve hot."
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "name": "Vegan Pasta Primavera",
+    "vegan": true,
+    "recency": "2024-07-21",
+    "nutrition_value": 8.9,
+    "yummy_value": 8.4,
+    "affordability": 7.8,
+    "preparation_time": 25,
+    "serving_size": 4,
+    "cuisine": "Italian",
+    "spiciness_level": 1,
+    "caloric_information": 350,
+    "shelf_life": 2,
+    "meal_prep_friendly": true,
+    "serving_suggestions": [
+      "Serve with a sprinkle of vegan parmesan.",
+      "Pair with a fresh garden salad."
+    ],
+    "recipe": {
+      "ingredients": [
+        { "name": "Pasta", "quantity": 300, "unit": "grams" },
+        { "name": "Zucchini", "quantity": 1, "unit": "piece" },
+        { "name": "Bell Peppers", "quantity": 2, "unit": "pieces" },
+        { "name": "Cherry Tomatoes", "quantity": 150, "unit": "grams" },
+        { "name": "Garlic", "quantity": 2, "unit": "cloves" },
+        { "name": "Olive Oil", "quantity": 2, "unit": "tbsp" },
+        { "name": "Basil", "quantity": 1, "unit": "handful" },
+        { "name": "Salt", "quantity": 1, "unit": "to taste" },
+        { "name": "Pepper", "quantity": 1, "unit": "to taste" }
+      ],
+      "steps": [
+        "Cook pasta according to package instructions.",
+        "Sauté chopped zucchini, bell peppers, and garlic in olive oil.",
+        "Add cherry tomatoes and cooked pasta. Toss well.",
+        "Season with salt, pepper, and fresh basil."
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "name": "Stuffed Bell Peppers",
+    "vegan": true,
+    "recency": "2024-07-20",
+    "nutrition_value": 9.1,
+    "yummy_value": 8.7,
+    "affordability": 8.3,
+    "preparation_time": 50,
+    "serving_size": 4,
+    "cuisine": "Mediterranean",
+    "spiciness_level": 2,
+    "caloric_information": 300,
+    "shelf_life": 3,
+    "meal_prep_friendly": true,
+    "serving_suggestions": [
+      "Serve with a side of couscous or salad.",
+      "Garnish with fresh parsley."
+    ],
+    "recipe": {
+      "ingredients": [
+        { "name": "Bell Peppers", "quantity": 4, "unit": "pieces" },
+        { "name": "Quinoa", "quantity": 1, "unit": "cup" },
+        { "name": "Black Beans", "quantity": 1, "unit": "cup" },
+        { "name": "Corn", "quantity": 1, "unit": "cup" },
+        { "name": "Onion", "quantity": 1, "unit": "piece" },
+        { "name": "Garlic", "quantity": 2, "unit": "cloves" },
+        { "name": "Cumin", "quantity": 1, "unit": "tsp" },
+        { "name": "Chili Powder", "quantity": 1, "unit": "tsp" },
+        { "name": "Salt", "quantity": 1, "unit": "to taste" },
+        { "name": "Pepper", "quantity": 1, "unit": "to taste" },
+        { "name": "Parsley", "quantity": 1, "unit": "handful" }
+      ],
+      "steps": [
+        "Preheat oven to 375°F (190°C).",
+        "Cut the tops off the bell peppers and remove seeds.",
+        "Cook quinoa according to package instructions.",
+        "Sauté chopped onion and garlic, then add black beans, corn, cumin, and chili powder.",
+        "Stuff the peppers with the quinoa mixture and bake for 30 minutes.",
+        "Garnish with fresh parsley before serving."
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "name": "Vegan Pancakes",
+    "vegan": true,
+    "recency": "2024-07-19",
+    "nutrition_value": 8.2,
+    "yummy_value": 9.0,
+    "affordability": 7.6,
+    "preparation_time": 20,
+    "serving_size": 4,
+    "cuisine": "Breakfast",
+    "spiciness_level": 0,
+    "caloric_information": 250,
+    "shelf_life": 1,
+    "meal_prep_friendly": false,
+    "serving_suggestions": [
+      "Serve with maple syrup and fresh berries.",
+      "Top with a dollop of coconut whipped cream."
+    ],
+    "recipe": {
+      "ingredients": [
+        { "name": "Flour", "quantity": 1, "unit": "cup" },
+        { "name": "Baking Powder", "quantity": 2, "unit": "tsp" },
+        { "name": "Almond Milk", "quantity": 1, "unit": "cup" },
+        { "name": "Maple Syrup", "quantity": 1, "unit": "tbsp" },
+        { "name": "Coconut Oil", "quantity": 1, "unit": "tbsp" },
+        { "name": "Vanilla Extract", "quantity": 1, "unit": "tsp" },
+        { "name": "Salt", "quantity": 1, "unit": "pinch" }
+      ],
+      "steps": [
+        "In a bowl, mix flour, baking powder, and salt.",
+        "Add almond milk, maple syrup, melted coconut oil, and vanilla extract. Stir until smooth.",
+        "Heat a non-stick pan and pour batter to form pancakes. Cook until bubbles form on the surface, then flip.",
+        "Serve with desired toppings."
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "name": "Vegan Sushi Rolls",
+    "vegan": true,
+    "recency": "2024-07-18",
+    "nutrition_value": 8.5,
+    "yummy_value": 8.8,
+    "affordability": 7.0,
+    "preparation_time": 35,
+    "serving_size": 4,
+    "cuisine": "Japanese",
+    "spiciness_level": 1,
+    "caloric_information": 300,
+    "shelf_life": 2,
+    "meal_prep_friendly": false,
+    "serving_suggestions": [
+      "Serve with soy sauce, pickled ginger, and wasabi.",
+      "Pair with a miso soup."
+    ],
+    "recipe": {
+      "ingredients": [
+        { "name": "Sushi Rice", "quantity": 2, "unit": "cups" },
+        { "name": "Nori Sheets", "quantity": 4, "unit": "pieces" },
+        { "name": "Cucumber", "quantity": 1, "unit": "piece" },
+        { "name": "Carrot", "quantity": 1, "unit": "piece" },
+        { "name": "Avocado", "quantity": 1, "unit": "piece" },
+        { "name": "Rice Vinegar", "quantity": 2, "unit": "tbsp" },
+        { "name": "Salt", "quantity": 1, "unit": "pinch" },
+        { "name": "Sugar", "quantity": 1, "unit": "tsp" }
+      ],
+      "steps": [
+        "Cook sushi rice according to package instructions and season with rice vinegar, salt, and sugar.",
+        "Place a nori sheet on a bamboo mat, spread rice evenly over the nori.",
+        "Add thin strips of cucumber, carrot, and avocado.",
+        "Roll tightly and slice into pieces."
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "name": "Vegan Chocolate Cake",
+    "vegan": true,
+    "recency": "2024-07-17",
+    "nutrition_value": 7.8,
+    "yummy_value": 9.2,
+    "affordability": 7.0,
+    "preparation_time": 60,
+    "serving_size": 8,
+    "cuisine": "Dessert",
+    "spiciness_level": 0,
+    "caloric_information": 400,
+    "shelf_life": 5,
+    "meal_prep_friendly": false,
+    "serving_suggestions": [
+      "Serve with a scoop of vegan ice cream.",
+      "Garnish with fresh berries and mint leaves."
+    ],
+    "recipe": {
+      "ingredients": [
+        { "name": "Flour", "quantity": 2, "unit": "cups" },
+        { "name": "Cocoa Powder", "quantity": 1, "unit": "cup" },
+        { "name": "Sugar", "quantity": 1.5, "unit": "cups" },
+        { "name": "Baking Soda", "quantity": 1.5, "unit": "tsp" },
+        { "name": "Salt", "quantity": 1, "unit": "tsp" },
+        { "name": "Water", "quantity": 1.5, "unit": "cups" },
+        { "name": "Vegetable Oil", "quantity": 1, "unit": "cup" },
+        { "name": "Apple Cider Vinegar", "quantity": 1, "unit": "tbsp" },
+        { "name": "Vanilla Extract", "quantity": 1, "unit": "tsp" }
+      ],
+      "steps": [
+        "Preheat oven to 350°F (175°C). Grease a cake pan.",
+        "In a large bowl, sift together the flour, cocoa powder, sugar, baking soda, and salt.",
+        "Add water, vegetable oil, vinegar, and vanilla extract. Mix until smooth.",
+        "Pour the batter into the prepared pan and bake for 30-35 minutes.",
+        "Allow to cool before serving."
+      ]
+    }
   }
 ]
-
