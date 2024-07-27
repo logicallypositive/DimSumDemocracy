@@ -2,6 +2,7 @@
 use std::fs::File;
 use std::io::BufReader;
 use serde::{Deserialize, Serialize};
+use leptos::*;
 
 #[derive(Serialize, Deserialize, Debug, Clone)]
 struct Ingredient {
