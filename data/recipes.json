@@ -1,0 +1,87 @@
+{
+  "foods": [
+    {
+      "id": 1,
+      "name": "Quinoa Salad with Avocado",
+      "vegan": true,
+      "recency": "2024-07-26",
+      "nutrition_value": 9.0,
+      "yummy_value": 8.5,
+      "affordability": 7.5,
+      "preparation_time": "20 minutes",
+      "serving_size": "2 servings",
+      "cuisine": "International",
+      "spiciness_level": "Mild",
+      "caloric_information": 300,
+      "shelf_life": "2 days in the refrigerator",
+      "meal_prep_friendly": true,
+      "serving_suggestions": [
+        "Serve chilled, optionally garnish with extra lemon zest.",
+        "Pair with a side of whole grain bread."
+      ],
+      "recipe": {
+        "ingredients": [
+          { "name": "Quinoa", "quantity": "1 cup" },
+          { "name": "Avocado", "quantity": "1, diced" },
+          { "name": "Cherry Tomatoes", "quantity": "100g, halved" },
+          { "name": "Cucumber", "quantity": "1, diced" },
+          { "name": "Olive Oil", "quantity": "2 tbsp" },
+          { "name": "Lemon Juice", "quantity": "2 tbsp" },
+          { "name": "Salt", "quantity": "to taste" },
+          { "name": "Pepper", "quantity": "to taste" },
+          { "name": "Fresh Basil", "quantity": "a handful, chopped" }
+        ],
+        "steps": [
+          "Rinse quinoa under cold water and cook according to package instructions. Let it cool.",
+          "In a large bowl, combine the cooked quinoa, diced avocado, cherry tomatoes, and cucumber.",
+          "Drizzle olive oil and lemon juice over the salad.",
+          "Season with salt and pepper, and toss everything together gently.",
+          "Garnish with fresh basil before serving."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Vegan Lentil Soup",
+      "vegan": true,
+      "recency": "2024-07-25",
+      "nutrition_value": 8.8,
+      "yummy_value": 8.0,
+      "affordability": 9.0,
+      "preparation_time": "45 minutes",
+      "serving_size": "4 servings",
+      "cuisine": "Mediterranean",
+      "spiciness_level": "Medium",
+      "caloric_information": 350,
+      "shelf_life": "3 days in the refrigerator",
+      "meal_prep_friendly": true,
+      "serving_suggestions": [
+        "Serve with a slice of whole grain bread.",
+        "Top with fresh parsley and a drizzle of olive oil."
+      ],
+      "recipe": {
+        "ingredients": [
+          { "name": "Green Lentils", "quantity": "1 cup" },
+          { "name": "Carrot", "quantity": "1, diced" },
+          { "name": "Celery", "quantity": "2 stalks, diced" },
+          { "name": "Onion", "quantity": "1, chopped" },
+          { "name": "Garlic", "quantity": "3 cloves, minced" },
+          { "name": "Vegetable Broth", "quantity": "4 cups" },
+          { "name": "Tomato Paste", "quantity": "2 tbsp" },
+          { "name": "Olive Oil", "quantity": "1 tbsp" },
+          { "name": "Bay Leaf", "quantity": "1" },
+          { "name": "Cumin", "quantity": "1 tsp" },
+          { "name": "Salt", "quantity": "to taste" },
+          { "name": "Pepper", "quantity": "to taste" }
+        ],
+        "steps": [
+          "Heat olive oil in a large pot over medium heat. Add chopped onion, carrot, celery, and minced garlic. Sauté until vegetables are soft.",
+          "Add tomato paste, cumin, and stir to combine. Cook for another minute.",
+          "Add lentils, vegetable broth, and bay leaf. Bring to a boil, then reduce heat and simmer for about 30 minutes, or until lentils are tender.",
+          "Season with salt and pepper to taste.",
+          "Remove the bay leaf and serve hot."
+        ]
+      }
+    }
+  ]
+}
